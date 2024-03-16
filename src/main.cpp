@@ -8,6 +8,7 @@ int main()
     stairs();
     error();
     tree();
+    display(1.4);
 
     return 0;
 }

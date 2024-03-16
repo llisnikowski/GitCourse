@@ -35,3 +35,8 @@ void tree()
         std::cout << std::endl;
     }
 }
+
+void display(float value)
+{
+    spdlog::info("value: {0}", value);
+}
