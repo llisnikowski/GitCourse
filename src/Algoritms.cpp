@@ -23,3 +23,22 @@ float pow2(float base, unsigned int exp)
         return pow2(base, exp - 1) * base;
     }
 }
+
+// template <int EXP>
+// float pow3(float base)
+// {
+//     return pow3<EXP-1>(base) * base;
+// }
+
+// template <>
+// float pow3<0>(float base)
+// {
+//     return 1;
+// }
+
+
+template <>
+double pow3<0>(double base)
+{
+    return 1;
+}
