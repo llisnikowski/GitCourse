@@ -7,6 +7,7 @@ int main()
     logA();
     stairs();
     error();
+    tree();
 
     return 0;
 }
