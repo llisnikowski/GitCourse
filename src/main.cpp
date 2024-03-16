@@ -5,7 +5,7 @@
 int main()
 {
     spdlog::info("Hello world");
-    std::cout << add(1.4, 3)) << std::endl;
+    std::cout << add(1.4, 3) << std::endl;
 
     return 0;
 }
