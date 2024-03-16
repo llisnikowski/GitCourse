@@ -5,6 +5,7 @@ int main()
 {
     spdlog::info("Hello world");
     logA();
+    stairs();
     error();
 
     return 0;
