@@ -6,3 +6,4 @@ void stairs();
 void tree();
 
 void display(double value);
+void display(int value);

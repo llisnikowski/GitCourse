@@ -10,6 +10,7 @@ int main()
     tree();
     display(1.4);
     display(1.4f);
+    display(5);
 
     return 0;
 }

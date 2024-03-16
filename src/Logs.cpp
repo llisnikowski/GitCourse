@@ -40,3 +40,8 @@ void display(double value)
 {
     spdlog::info("value: {0}", value);
 }
+
+void display(int value)
+{
+    spdlog::info("value: {0}", value);
+}
