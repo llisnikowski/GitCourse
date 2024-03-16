@@ -9,6 +9,7 @@ int main()
     error();
     tree();
     display(1.4);
+    display(1.4f);
 
     return 0;
 }
