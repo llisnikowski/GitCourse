@@ -17,3 +17,6 @@ cmake --build build
 ```
 ./build/GitCourse
 ```
+
+## Used Libraries
+- spdlog (https://github.com/gabime/spdlog)
